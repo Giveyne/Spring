@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29909755-0cf0-41e7-b260-d47b950bf25b" name="Default Changelist" comment="" />
+    <list default="true" id="29909755-0cf0-41e7-b260-d47b950bf25b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/usersystem-master/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/system/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -87,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/system/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -132,7 +134,7 @@
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/resourses/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -140,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usersystem-master/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="982">
-              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -155,6 +157,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -165,12 +170,12 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/users_check_page.jsp" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/user_check_page_try_again.jsp" />
-        <option value="$PROJECT_DIR$/usersystem-master/pom.xml" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/resourses/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/system/controller/UserController.java" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/HibernateDAO/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/HibernateDAO/HibernateConnector.java" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/system/model/User.java" />
+        <option value="$PROJECT_DIR$/usersystem-master/pom.xml" />
       </list>
     </option>
   </component>
@@ -209,6 +214,7 @@
     <option name="width" value="1289" />
     <option name="height" value="989" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -362,7 +368,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582744083812" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582744323180" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysql-connector-java-5.1.48/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -544,12 +550,12 @@
       <option name="presentableId" value="Default" />
       <updated>1582658112209</updated>
       <workItem from="1582658114533" duration="4153000" />
-      <workItem from="1582694199720" duration="24791000" />
+      <workItem from="1582694199720" duration="25039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28944000" />
+    <option name="totallyTimeSpent" value="29192000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -561,10 +567,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="0.2540453" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="0.2540453" />
       <window_info id="Structure" order="1" sideWeight="0.5017182" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -574,7 +579,7 @@
       <window_info id="Web" order="7" sideWeight="0.5017182" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" weight="0.32949308" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32949308" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32949308" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="3" weight="0.32949308" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.33899677" side_tool="true" weight="0.32949308" />
@@ -584,7 +589,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.66100323" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.66100323" weight="0.32949308" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -699,7 +704,7 @@
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/system/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
@@ -713,21 +718,21 @@
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/system/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/resourses/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/usersystem-master/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="982">
-          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="53" column="57" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
         </state>
       </provider>
     </entry>

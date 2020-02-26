@@ -1,7 +1,7 @@
-package system.dao;
+package ru.igor.system.dao;
 
 import org.springframework.stereotype.Repository;
-import system.model.User;
+import ru.igor.system.model.User;
 
 import java.util.Arrays;
 import java.util.List;

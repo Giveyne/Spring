@@ -1,6 +1,6 @@
-package system.controller;
+package ru.igor.system.controller;
 
-import HibernateDAO.HibernateConnector;
+import ru.igor.HibernateDAO.HibernateConnector;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import system.model.User;
-import system.service.UserService;
+import ru.igor.system.model.User;
+import ru.igor.system.service.UserService;
 
 import java.util.List;
 
@@ -19,6 +19,9 @@ import java.util.List;
 public class UserController {
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private HibernateConnector hibernateConnector;
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public @ResponseBody
@@ -36,9 +39,6 @@ public class UserController {
 
     @RequestMapping(value = "/check", method = RequestMethod.POST)
     public @ResponseBody String checkUser(@ModelAttribute("userFromServer")User user) {
-
-        HibernateConnector hibernateConnector = new HibernateConnector();
-
-    return hibernateConnector.connectionDatabse(user);
+    return hibernateConnector.connectionDatabase(user);
     }
 }

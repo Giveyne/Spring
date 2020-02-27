@@ -10,12 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29909755-0cf0-41e7-b260-d47b950bf25b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/resourses/hibernate.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/resourses/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/resourses/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/resourses/spring-config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/usersystem-master/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/resourses/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="n#prop#0;n#props#0;n#property#2;n#bean#1;n#beans#0;n#!!top" expanded="true" />
                 <element signature="n#prop#1;n#props#0;n#property#2;n#bean#1;n#beans#0;n#!!top" expanded="true" />
@@ -93,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="493">
+              <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -391,7 +386,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582833828611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582834856549" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysql-connector-java-5.1.48/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -612,7 +607,7 @@
       <updated>1582658112209</updated>
       <workItem from="1582658114533" duration="4153000" />
       <workItem from="1582694199720" duration="34374000" />
-      <workItem from="1582783688509" duration="12436000" />
+      <workItem from="1582783688509" duration="13663000" />
     </task>
     <task id="LOCAL-00001" summary="refactor from team">
       <created>1582783988840</created>
@@ -632,7 +627,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50963000" />
+    <option name="totallyTimeSpent" value="52190000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -658,7 +653,7 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.32949308" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32949308" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32949308" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="3" weight="0.32949308" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.33899677" side_tool="true" weight="0.32949308" />
@@ -668,7 +663,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32949308" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.66100323" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.66100323" weight="0.32949308" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -876,13 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/resourses/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -907,17 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/resourses/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="n#prop#0;n#props#0;n#property#2;n#bean#1;n#beans#0;n#!!top" expanded="true" />
             <element signature="n#prop#1;n#props#0;n#property#2;n#bean#1;n#beans#0;n#!!top" expanded="true" />
@@ -931,13 +912,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="493">
+          <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

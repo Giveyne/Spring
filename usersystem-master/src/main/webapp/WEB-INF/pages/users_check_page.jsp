@@ -12,6 +12,7 @@
     <title>Title</title>
 </head>
 <body>
+<%--@elvariable id="userFromServer" type="ru.igor.system.controller"--%>
 <spring:form modelAttribute="userFromServer" method="post" action="${pageContext.request.contextPath}/users/check">
     <spring:input path="name"/>
     <spring:input path="password"/>

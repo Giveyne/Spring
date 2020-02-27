@@ -5,12 +5,12 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.criterion.Restrictions;
-import system.model.User;
+
 
 
 public class HibernateConnector {
 
-    public String connectionDatabse(User user){
+   /* public String connectionDatabse(User user){
 
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
@@ -43,6 +43,6 @@ public class HibernateConnector {
             sessionFactory.close();
         }
         return "invalid";
-    }
+    }*/
 
 }

@@ -1,4 +1,4 @@
-package system.model;
+package ru.igor.system.model;
 
 
 import javax.persistence.*;

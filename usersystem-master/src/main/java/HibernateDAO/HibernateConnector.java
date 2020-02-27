@@ -11,17 +11,18 @@ import system.model.User;
 public class HibernateConnector {
 
     public String connectionDatabse(User user){
-
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         try {
-            session.beginTransaction();
 
+            session.beginTransaction();
 
             Criteria criteria = session.createCriteria(User.class);
             try {
+
                 if(criteria.add(Restrictions.eq("name", user.getName()))!= null){
                     session.getTransaction().rollback();
+                    System.out.println(user.getName());
                     return "invalid";
                 }
                 else {
@@ -45,4 +46,10 @@ public class HibernateConnector {
         return "invalid";
     }
 
+   public static void main(String[] args) {
+       HibernateConnector hibernateConnector = new HibernateConnector();
+        User user = new User(3L, "0s", "ss");
+      System.out.println(hibernateConnector.connectionDatabse(user));
+
+  }
 }

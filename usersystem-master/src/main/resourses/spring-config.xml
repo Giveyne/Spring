@@ -10,7 +10,7 @@
 
     <mvc:view-controller path="/" view-name="users_page"/>
     <mvc:view-controller path="/test/" view-name="test"/>
-
+    <context:property-placeholder location="classpath:hibernate.properties" />
     <bean id="resolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
@@ -22,18 +22,18 @@
         <property name="packagesToScan" value="ru.igor.system.model" />
         <property name="hibernateProperties">
             <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-                <prop key="hibernate.show_sql">true</prop>
-                <prop key="hibernate.hbm2ddl.auto">update</prop>
-                <prop key="org.hibernate.flushMode">auto</prop>
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                <prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+                <prop key="org.hibernate.flushMode">${org.hibernate.flushMode}</prop>
             </props>
         </property>
     </bean>
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/hibernate?useUnicode=true&amp;serverTimezone=UTC"/>
-        <property name="username" value="root"/>
-        <property name="password" value="123"/>
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}+?useUnicode=true&amp;serverTimezone=UTC"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.pass}"/>
     </bean>
 </beans>

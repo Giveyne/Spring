@@ -6,13 +6,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
-import ru.igor.system.mapping.UserMapping;
 import ru.igor.system.model.User;
-
-import java.util.Iterator;
 import java.util.List;
 
 @Component
@@ -38,25 +33,54 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User getById(Long id) {
-        List<User> user;
+        User user;
         Session session = sessionFactory.openSession();
         Criteria criteria = session.createCriteria(User.class);
         criteria.add(Restrictions.eq("id", id));
-        user = criteria.list();
+        user = (User)criteria.uniqueResult();
         session.close();
-        return user.get(0);
+        return user;
     }
 
     @Override
     public void save(User user) {
-
-
+        Session session = sessionFactory.openSession();
+        try {
+            session.beginTransaction();
+            Criteria criteria = session.createCriteria(User.class);
+            criteria.add(Restrictions.eq("name", user.getName()));
+            List addUser = criteria.list();
+            if (!addUser.isEmpty()) {
+                session.getTransaction().rollback();
+            } else {
+                session.save(user);
+                session.getTransaction().commit();
+            }
+        } catch (Exception e) {
+            session.getTransaction().rollback();
+            e.printStackTrace();
+        } finally {
+            session.close();
+        }
     }
 
     @Override
     public void delete(Long id) {
         Session session = sessionFactory.openSession();
-        SQLQuery query = session.createSQLQuery("Delete from user_base WHERE id = ?");
+        session.beginTransaction();
+        User user = (User) session.get(User.class, id);
+        session.delete(user);
+        session.getTransaction().commit();
         session.close();
     }
+    @Override
+    public void update(User user) {
+        Session session = sessionFactory.openSession();
+        session.beginTransaction();
+        //User currentUser = (User) session.get(User.class, user.getId());
+        session.update(user);
+        session.getTransaction().commit();
+        session.close();
+    }
+
 }

@@ -24,6 +24,7 @@ public class UserServiceImpl implements UserService{
     public List<User> findAll() {
         return userDao.findAll();
     }
+
     @Override
     public User getById(Long id) {
         return userDao.getById(id);
@@ -31,11 +32,15 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public void save(User user) {
-
-
+        userDao.save(user);
     }
 
     @Override
     public void delete(Long id) {
+        userDao.delete(id);
+    }
+    @Override
+    public void update(User user) {
+        userDao.update(user);
     }
 }

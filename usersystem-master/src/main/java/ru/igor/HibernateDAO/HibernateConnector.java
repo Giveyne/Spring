@@ -1,3 +1,4 @@
+/*
 package ru.igor.HibernateDAO;
 
 import org.hibernate.Criteria;
@@ -44,4 +45,4 @@ public class HibernateConnector {
         }
     }
 
-}
+}*/

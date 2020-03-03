@@ -24,10 +24,12 @@
                 <td> <a href = "/user/${user.id}"><c:out  value="${user.id}"/> </a></td>
                 <td> <c:out value="${user.name}" /></td>
                 <td> <c:out value="${user.password}" /></td>
+               <td> <a href = "/delete/${user.id}">Delete</a></td>
+               <td> <a href = "/update/${user.id}">Update</a></td>
             </tr>
         </c:forEach>
 
-
+    <a href = "/adduser"> Add user </a>
 </table>
 </body>
 </html>

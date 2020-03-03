@@ -10,29 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29909755-0cf0-41e7-b260-d47b950bf25b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/mapping/UserMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/HelloWorld.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/User_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/page_one.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/show_user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/user_system_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/user_system_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd48d41b-3abc-44c8-81c0-8a5a194e7dec.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/createUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/update_user.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/HibernateDAO/HibernateConnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/HibernateDAO/HibernateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/resourses/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/resourses/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/User_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/User_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/usersystem-master/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,19 +63,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="398">
+              <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+              <folding>
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="418">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#699#700#0" expanded="true" />
                 <element signature="e#751#752#0" expanded="true" />
               </folding>
@@ -97,22 +87,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="das://da39e69c-b09d-4a0f-a66b-33dbaf50bf49/schema/hibernate/table/user_base">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/show_user.jsp">
+        <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/createUser.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/update_user.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/users_check_page.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/page_one.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -120,20 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/usersystem-master/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -141,20 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/User_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="14" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -162,11 +152,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state>
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="e#709#710#0" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,8 +173,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -201,7 +197,6 @@
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/HibernateDAO/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/resourses/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/resourses/hibernate.properties" />
-        <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java" />
         <option value="$PROJECT_DIR$/usersystem-master/README.md" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/model/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/HibernateController.java" />
@@ -218,13 +213,16 @@
         <option value="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/page_one.jsp" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/show_user.jsp" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/mapping/OpenSession.java" />
-        <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/usersystem-master/.gitignore" />
+        <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java" />
+        <option value="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/createUser.jsp" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserService.java" />
-        <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/User_list.jsp" />
-        <option value="$PROJECT_DIR$/usersystem-master/.gitignore" />
+        <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/update_user.jsp" />
+        <option value="$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -286,6 +284,116 @@
               <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
               <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="igor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="igor" type="462c0819:PsiDirectoryNode" />
+              <item name="HibernateDAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="igor" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="igor" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="igor" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="igor" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usersystem-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="usersystem-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -298,7 +406,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583239176878" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583268252763" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysql-connector-java-5.1.48/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -547,7 +655,7 @@
       <workItem from="1583087522396" duration="1677000" />
       <workItem from="1583156810295" duration="7478000" />
       <workItem from="1583178975355" duration="2228000" />
-      <workItem from="1583211553989" duration="20308000" />
+      <workItem from="1583211553989" duration="33292000" />
     </task>
     <task id="LOCAL-00001" summary="refactor from team">
       <created>1582783988840</created>
@@ -567,7 +675,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95611000" />
+    <option name="totallyTimeSpent" value="108595000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -591,7 +699,7 @@
       <window_info id="Web" order="7" sideWeight="0.5017182" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32949308" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32949308" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="3" weight="0.32949308" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.33899677" side_tool="true" weight="0.32949308" />
@@ -605,7 +713,7 @@
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="Application Servers" order="15" sideWeight="0.4975728" weight="0.32949308" />
+      <window_info active="true" anchor="bottom" id="Application Servers" order="15" sideWeight="0.4975728" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="TODO" order="16" weight="0.32949308" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32949308" />
       <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.32949308" />
@@ -613,7 +721,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32928804" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32928804" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32928804" />
@@ -670,10 +778,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="refactor from team" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fd48d41b-3abc-44c8-81c0-8a5a194e7dec/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/user_check_page_try_again.jsp" />
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/system/dao/UserDao.java" />
     <entry file="das://fd48d41b-3abc-44c8-81c0-8a5a194e7dec/schema/hibernate/table/users_base" />
     <entry file="das://fd48d41b-3abc-44c8-81c0-8a5a194e7dec/schema/hibernate/table/user_base_1" />
@@ -728,13 +832,6 @@
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/model/dao/UserDao.java" />
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/HibernateController.java" />
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/Main.java" />
-    <entry file="das://da39e69c-b09d-4a0f-a66b-33dbaf50bf49/schema/hibernate/table/user_base">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/HelloWorld.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -756,13 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/users_check_page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/test.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -770,20 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/page_one.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -801,63 +877,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/show_user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -881,27 +900,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/User_list.jsp">
+    <entry file="file://$PROJECT_DIR$/usersystem-master/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="-1109">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java">
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/show_user.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usersystem-master/.gitignore">
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/HibernateDAO/HibernateConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/users_check_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/page_one.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/createUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/User_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/webapp/WEB-INF/pages/update_user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+          <folding>
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://da39e69c-b09d-4a0f-a66b-33dbaf50bf49/schema/hibernate/table/user_base">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usersystem-master/src/main/java/ru/igor/system/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

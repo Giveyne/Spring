@@ -1,19 +1,16 @@
 package ru.igor.system.dao;
 
-import org.springframework.stereotype.Repository;
+
+
 import ru.igor.system.model.User;
 
-import java.util.Arrays;
 import java.util.List;
 
+public interface UserDao {
 
-@Repository// База данных
-public class UserDao {
-    private List<User> users = Arrays.asList(
-            new User(1L,"admin", "admin"),
-            new User(2L, "user1", "user1"));
+    User getById(Long id);
+    List<User> findAll();
 
-    public List<User> getAllUsers() {
-        return users;
-    }
+    void save(User user);
+    void delete(Long id);
 }

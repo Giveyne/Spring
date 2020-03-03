@@ -36,4 +36,7 @@
         <property name="username" value="${jdbc.username}"/>
         <property name="password" value="${jdbc.pass}"/>
     </bean>
+<bean id= "getUserDao" class = "ru.igor.system.dao.UserDaoImpl">
+    <constructor-arg ref="sessionFactory"> </constructor-arg>
+</bean>
 </beans>

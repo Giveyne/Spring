@@ -3,7 +3,7 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
+.idea/
 *.iml
 out
 gen### macOS template
@@ -25,7 +25,7 @@ Icon
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+.com.apple.timemachine.donotpresentgit status
 
 # Directories potentially created on remote AFP share
 .AppleDB

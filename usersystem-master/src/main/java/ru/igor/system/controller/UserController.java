@@ -27,7 +27,7 @@ public class UserController {
     @GetMapping("/users")
     public String getAllUsers(Model model){
         model.addAttribute("users", userService.findAll());
-        return "User_list";
+        return "user_list";
     }
     @GetMapping("/user/{id}")
     public String getById(@PathVariable("id") Long id, Model model){
@@ -36,7 +36,7 @@ public class UserController {
     }
     @GetMapping("/adduser")
     public String createUserPage(){
-        return "createUser";
+        return "create_user";
     }
     @PostMapping("/adduser")
     public String addUser(@ModelAttribute("user")User user){

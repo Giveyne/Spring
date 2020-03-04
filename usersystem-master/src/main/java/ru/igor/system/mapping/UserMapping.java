@@ -6,7 +6,7 @@ import ru.igor.system.model.User;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-
+//This class don't use. It is for mapping with jdbc teamplate and servlet jsp.
 public class UserMapping implements RowMapper<User> {
 
     @Override

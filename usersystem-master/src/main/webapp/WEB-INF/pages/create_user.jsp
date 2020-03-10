@@ -11,7 +11,7 @@
     <title>Create User</title>
 </head>
 <body>
-<form name = "user" action = "/adduser" method="post">
+<form name = "user" action = "/adduserF" method="post">
     <p>Name</p>
     <input title = "Name" type = "text" name ="name">
     <p>Password</p>

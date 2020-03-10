@@ -38,11 +38,12 @@ public class UserController {
     public String createUserPage(){
         return "create_user";
     }
-    @PostMapping("/adduser")
+    @PostMapping("/adduserF")
     public String addUser(@ModelAttribute("user")User user){
         userService.save(user);
         return "redirect:/users";
     }
+
     @GetMapping("/delete/{id}")
     public String deleteId(@PathVariable("id") Long id) {
          userService.delete(id);

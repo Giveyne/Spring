@@ -6,8 +6,10 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CachePut;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
 import ru.igor.system.model.User;
 
 import java.util.List;
@@ -28,6 +30,7 @@ public class HibernateDao {
         return sessionFactory.getCurrentSession();
     }
     @Transactional
+    @CachePut(value = "users", key = "#user.name")
     public void addUser(User user){
         Criteria criteria = currentSession().createCriteria(User.class);
         criteria.add(Restrictions.eq("name", user.getName()));
@@ -43,15 +46,19 @@ public class HibernateDao {
         return (User) currentSession().get(User.class, id);
     }
     @Transactional
+    @CachePut(value = "users", key = "#user.name")
     public void updateUser(User user){
         currentSession().update(user);
     }
+
     @Transactional
+
     public void delateUser(Long id){
         User user = (User) currentSession().get(User.class, id);
         currentSession().delete(user);
     }
     @Transactional
+
     public List<User> getListUsers() {
         SQLQuery query = currentSession().createSQLQuery("select * from user_base");
         query.addEntity(User.class);

@@ -6,19 +6,24 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
     <title>Create User</title>
 </head>
 <body>
-<form name = "user" action = "/update" method="post">
+<form:form commandName="user"  action = "/update" method="post">
     <p>Id</p>
-    <input title = "Id" type = "text" name ="id" value="${user.id}">
+    <input readonly path = "id" type = "text" name ="id" value="${user.id}"/>
+
     <p>Name</p>
-    <input title = "Name" type = "text" name ="name" value="${user.name}">
+    <input path = "name" type = "text" name ="name" value="${user.name}"/>
+    <form:errors path="name" cssClass="error" />
     <p>Password</p>
-    <input title = "Password" type = "text" name ="password" value="${user.password}">
+    <input path= "password" type = "text" name ="password" value="${user.password}"/>
+    <form:errors path="password"/>
     <input type = "submit" value="Update user in base">
-</form>
+</form:form>
 </body>
 </html>

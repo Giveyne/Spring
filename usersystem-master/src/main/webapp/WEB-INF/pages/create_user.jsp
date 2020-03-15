@@ -1,22 +1,35 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Тимофей
-  Date: 03.03.2020
-  Time: 20:05
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Create User</title>
 </head>
 <body>
-<form name = "user" action = "/adduserF" method="post">
-    <p>Name</p>
-    <input title = "Name" type = "text" name ="name">
-    <p>Password</p>
-    <input title = "Password" type = "text" name ="password">
-    <input type = "submit" value="Add user to base">
-</form>
+<form:form commandName="user" action = "/adduser" method="post">
+<fieldset>
+    <table cellspacing="0">
+        <tr>
+            <td>
+                <p>Name</p>
+                <input path = "name" type = "text" name ="name"/>
+                <small id="name_msg">No spaces, please.</small><br/>
+                <form:errors path="name" cssClass="error" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Password</p>
+                <input path= "password" type = "text" name ="password" />
+                <small>6 characters or more (be tricky!)</small><br/>
+                <form:errors path="password"/>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><input name="commit" type="submit"
+                       value="I accept. Create my account." /></td>
+        </tr>
+</form:form>
 </body>
 </html>
+

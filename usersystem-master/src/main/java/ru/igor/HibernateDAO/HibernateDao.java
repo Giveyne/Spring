@@ -8,13 +8,14 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import ru.igor.system.model.User;
 
 import java.util.List;
 
-@Transactional
+@Transactional(propagation= Propagation.SUPPORTS, readOnly=true)
 @Repository
 public class HibernateDao {
 
@@ -29,7 +30,8 @@ public class HibernateDao {
     public Session currentSession() {
         return sessionFactory.getCurrentSession();
     }
-    @Transactional
+
+    @Transactional(propagation= Propagation.REQUIRED, rollbackFor=Exception.class)
     @CachePut(value = "users", key = "#user.name")
     public void addUser(User user){
         Criteria criteria = currentSession().createCriteria(User.class);
@@ -41,23 +43,31 @@ public class HibernateDao {
             currentSession().save(user);
         }
     }
-    @Transactional
+
     public User getUserById(Long id) {
         return (User) currentSession().get(User.class, id);
     }
+
     @Transactional
     @CachePut(value = "users", key = "#user.name")
     public void updateUser(User user){
-        currentSession().update(user);
+        Criteria criteria = currentSession().createCriteria(User.class);
+        criteria.add(Restrictions.eq("name", user.getName()));
+        criteria.add(Restrictions.ne("id", user.getId()));
+        List addUser = criteria.list();
+        if (!addUser.isEmpty()) {
+            throw new RuntimeException("ewe");
+        } else {
+            currentSession().update(user);
+        }
     }
 
-    @Transactional
-
+    @Transactional(propagation= Propagation.REQUIRED)
+    @CachePut(value = "users", key = "#user.name")
     public void delateUser(Long id){
         User user = (User) currentSession().get(User.class, id);
         currentSession().delete(user);
     }
-    @Transactional
 
     public List<User> getListUsers() {
         SQLQuery query = currentSession().createSQLQuery("select * from user_base");

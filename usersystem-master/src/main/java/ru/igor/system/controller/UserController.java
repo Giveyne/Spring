@@ -4,9 +4,15 @@ package ru.igor.system.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 import ru.igor.system.model.User;
 import ru.igor.system.service.UserService;
+
+import javax.jws.WebParam;
+import javax.jws.soap.SOAPBinding;
+import javax.validation.Valid;
 
 
 @Controller
@@ -36,10 +42,15 @@ public class UserController {
     }
     @GetMapping("/adduser")
     public String createUserPage(){
-        return "create_user";
+        return  "create_user";
     }
-    @PostMapping("/adduserF")
-    public String addUser(@ModelAttribute("user")User user){
+
+    @PostMapping("/adduser")
+    public String addUser(@Valid @ModelAttribute("user") User user, BindingResult bindingResult){
+
+        if(bindingResult.hasErrors()) {
+            return "create_user";
+        }
         userService.save(user);
         return "redirect:/users";
     }
@@ -55,7 +66,11 @@ public class UserController {
          return "update_user";
     }
     @PostMapping("/update")
-    public String updateUser(@ModelAttribute("user") User user) {
+    public String updateUser(@Valid @ModelAttribute("user") User user, BindingResult bindingResult) {
+
+        if(bindingResult.hasErrors()) {
+            return "update_user";
+        }
         userService.update(user);
         return "redirect:/user/" + user.getId();
     }

@@ -2,6 +2,8 @@ package ru.igor.system.model;
 
 
 import javax.persistence.*;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 
 
 @Entity
@@ -13,13 +15,17 @@ public class User {
     private Long id;
 
     @Column(name = "name", length = 16)
+    @Size(min=3, max=16,
+            message="Username must be between 3 and 16 characters long.")
     private String name;
+
     @Column(name = "password", length = 32)
+    @Size(min=8, max=32, message="Username must be between 3 and 16 characters long.")
+    @Pattern(regexp="^(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*$",
+            message="Password must contain min 8 character upper and lower case letters and digit")
     private String password;
 
-    public User() {
-
-    }
+    public User() { }
 
     public User(Long id, String name, String password) {
         this.id = id;

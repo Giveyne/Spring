@@ -1,3 +1,4 @@
+
 <%--
   Created by IntelliJ IDEA.
   User: Тимофей
@@ -13,7 +14,8 @@
     <title>Create User</title>
 </head>
 <body>
-<form:form commandName="user"  action = "/update" method="post">
+<%--@elvariable id="user" type="ru.igor.system.model.User"--%>
+<form:form modelAttribute="user"  action = "/update" method="post">
     <p>Id</p>
     <input readonly path = "id" type = "text" name ="id" value="${user.id}"/>
 

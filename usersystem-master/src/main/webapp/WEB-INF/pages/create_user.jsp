@@ -4,8 +4,9 @@
 <head>
     <title>Create User</title>
 </head>
+
 <body>
-<form:form commandName="user" action = "/adduser" method="post">
+<form:form Name="name" action = "/adduser" method="post">
 <fieldset>
     <table cellspacing="0">
         <tr>

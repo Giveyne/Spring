@@ -18,7 +18,7 @@ public class CacheApp {
         public static void main(String[] args) {
             SpringApplication.run(CacheApp.class, args);
         }
-    @Bean("habrCacheManager")
+    @Bean("CacheManager")
     public CacheManager cacheManager() {
         return new ConcurrentMapCacheManager() {
             @Override

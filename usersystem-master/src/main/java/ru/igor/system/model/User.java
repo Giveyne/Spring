@@ -2,9 +2,11 @@ package ru.igor.system.model;
 
 
 import javax.persistence.*;
+import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
-
+import javax.persistence.Entity;
 
 @Entity
 @Table(name = "user_base")
@@ -19,7 +21,8 @@ public class User {
             message="Username must be between 3 and 16 characters long.")
     private String name;
 
-    @Column(name = "password", length = 32)
+    @Column(name = "password", length = 128)
+    @NotBlank(message="Street is required")
     @Size(min=8, max=32, message="Username must be between 3 and 16 characters long.")
     @Pattern(regexp="^(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*$",
             message="Password must contain min 8 character upper and lower case letters and digit")

@@ -6,13 +6,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 import ru.igor.system.model.User;
 import ru.igor.system.service.UserService;
 
-import javax.jws.WebParam;
-import javax.jws.soap.SOAPBinding;
 import javax.validation.Valid;
+import java.security.Principal;
 
 
 @Controller
@@ -21,10 +19,10 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-    @GetMapping("/")
+  /*  @GetMapping("/")
     public String pageOne(){
         return "page_one";
-    }
+    }*/
     @GetMapping("/hello")
     public String hello(){
         return "HelloWorld";
@@ -73,5 +71,11 @@ public class UserController {
         }
         userService.update(user);
         return "redirect:/user/" + user.getId();
+    }
+
+    @GetMapping("/")
+    public String index(Model model, Principal principal) {
+        model.addAttribute("message", "You are logged in as " + principal.getName());
+        return "page_one";
     }
 }

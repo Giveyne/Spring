@@ -2,6 +2,7 @@ package ru.igor.system.dao;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import ru.igor.HibernateDAO.HibernateDao;
 import ru.igor.system.model.User;
@@ -14,9 +15,9 @@ public class UserDaoImpl implements UserDao {
     @Autowired
     public HibernateDao hibernateDao;
 
-    public UserDaoImpl(HibernateDao hibernateDao) {
+   /* public UserDaoImpl(HibernateDao hibernateDao) {
         this.hibernateDao = hibernateDao;
-    }
+    }*/
 
     @Override
     public List<User> findAll() {
